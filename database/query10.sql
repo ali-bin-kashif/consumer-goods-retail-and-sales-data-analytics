@@ -1,10 +1,50 @@
+WITH ns_division AS (
 SELECT
 	division,
-    product_code,
     product,
-    SUM(sold_quantity) AS total_sold_quantity
+    SUM(sold_quantity) AS total_sold_quantity,
+    RANK() OVER(ORDER BY SUM(sold_quantity) DESC) AS rank_order
 FROM fact_sales_monthly
 INNER JOIN dim_product
 USING(product_code)
 WHERE fiscal_year = 2021
-GROUP BY division, product, product_code;
+	AND division = 'N & S'
+GROUP BY product
+ORDER BY total_sold_quantity DESC
+LIMIT 3 ),
+
+pa_division AS (
+SELECT
+	division,
+    product,
+    SUM(sold_quantity) AS total_sold_quantity,
+    RANK() OVER(ORDER BY SUM(sold_quantity) DESC) AS rank_order
+FROM fact_sales_monthly
+INNER JOIN dim_product
+USING(product_code)
+WHERE fiscal_year = 2021
+	AND division = 'P & A'
+GROUP BY product
+ORDER BY total_sold_quantity DESC
+LIMIT 3 ),
+
+pc_division AS (
+SELECT
+	division,
+    product,
+    SUM(sold_quantity) AS total_sold_quantity,
+    RANK() OVER(ORDER BY SUM(sold_quantity) DESC) AS rank_order
+FROM fact_sales_monthly
+INNER JOIN dim_product
+USING(product_code)
+WHERE fiscal_year = 2021
+	AND division = 'PC'
+GROUP BY product
+ORDER BY total_sold_quantity DESC
+LIMIT 3 )
+
+SELECT * FROM ns_division
+UNION
+SELECT * FROM pa_division
+UNION
+SELECT * FROM pc_division;
