@@ -1,9 +1,9 @@
 -- REQUEST 8
 
 SELECT
-	EXTRACT(QUARTER FROM date) AS quarter,
-    SUM(sold_quantity) AS total_sold_quantity
+	CONCAT('Q', EXTRACT(QUARTER FROM date)) AS quarter,
+    ROUND(SUM(sold_quantity)/1000000,2) AS total_sold_quantity_mln
 FROM fact_sales_monthly
-WHERE EXTRACT(YEAR FROM date) = 2020
-GROUP BY EXTRACT(QUARTER FROM date)
-ORDER BY total_sold_quantity DESC;
+WHERE fiscal_year = 2020
+GROUP BY CONCAT('Q', EXTRACT(QUARTER FROM date))
+ORDER BY total_sold_quantity_mln DESC;

@@ -14,4 +14,5 @@ INNER JOIN dim_customer
 USING(customer_code)
 WHERE fiscal_year = 2021
 	AND market = 'India'
-ORDER BY pre_invoice_discount_pct DESC;
+ORDER BY pre_invoice_discount_pct DESC
+LIMIT 5;
