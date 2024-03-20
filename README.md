@@ -7,7 +7,7 @@ This is an end-to-end data analytics project in which a real business problem is
 - Power BI
 
 ## Objectives
-- Providing insights to ad-hoc business questions and requests by the client.
+- Providing insights for ad-hoc business questions and requests by the client.
 - Dashboard for monitoring and tracking sales performance.
 
 ## Steps Performed
