@@ -1,4 +1,6 @@
 -- REQUEST 8
+/*This query will return sold quantity in millions
+grouped by quarters*/
 
 SELECT
 	CONCAT('Q', EXTRACT(QUARTER FROM date)) AS quarter,

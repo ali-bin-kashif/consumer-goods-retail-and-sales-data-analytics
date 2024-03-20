@@ -1,3 +1,9 @@
+-- REQUEST 9
+
+/* This query will return gross sales in and overall percentages
+by Channels*/
+
+-- Creating CTE to avoid overcomplexity is subqueries
 WITH gross_sales_by_channel AS (
 SELECT 
 	channel,

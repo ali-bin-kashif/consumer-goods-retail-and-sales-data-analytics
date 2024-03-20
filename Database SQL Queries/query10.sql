@@ -1,3 +1,10 @@
+-- REQUEST 10
+
+/*This query will return Top 3 products in each division
+in fiscal year 2021*/
+
+
+-- Creating CTEs for to get top 3 products in each division
 WITH ns_division AS (
 SELECT
 	division,
@@ -43,6 +50,8 @@ GROUP BY product
 ORDER BY total_sold_quantity DESC
 LIMIT 3 )
 
+
+-- Joining all CTEs together
 SELECT * FROM ns_division
 UNION
 SELECT * FROM pa_division

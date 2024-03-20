@@ -1,10 +1,7 @@
-/*Generate a report which contains the top 5 customers who received an
-average high pre_invoice_discount_pct for the fiscal year 2021 and in the
-Indian market. The final output contains these fields,
-customer_code
-customer
-average_discount_percentage*/
+-- REQUEST 6
 
+/*This query will return top 5 customers who recieved 
+high discounts in fiscal year 2021 and Australia*/
 SELECT
 	customer_code,
     customer,
