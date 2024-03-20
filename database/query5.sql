@@ -12,4 +12,5 @@ WHERE
      OR
      manufacturing_cost =
     (SELECT MIN(manufacturing_cost)
-	 FROM fact_manufacturing_cost);
+	 FROM fact_manufacturing_cost)
+ORDER BY manufacturing_cost DESC;

@@ -2,7 +2,7 @@
 SELECT DISTINCT(market)
 FROM dim_customer
 WHERE region = 'APAC'
-	AND customer = 'Atliq Exclusive';
+	 AND customer = 'Amazon';
     
 -- REQUEST 3
 SELECT 

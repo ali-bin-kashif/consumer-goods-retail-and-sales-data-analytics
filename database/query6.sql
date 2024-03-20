@@ -13,6 +13,6 @@ FROM fact_pre_invoice_deductions
 INNER JOIN dim_customer
 USING(customer_code)
 WHERE fiscal_year = 2021
-	AND market = 'India'
+	AND market = 'Australia'
 ORDER BY pre_invoice_discount_pct DESC
 LIMIT 5;
