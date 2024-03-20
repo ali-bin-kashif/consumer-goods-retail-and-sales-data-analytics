@@ -18,7 +18,9 @@ Analyzing the dataset of a telecom company to track it's important KPIs, compare
 - Created Data Model with Dimensions and fact tables.
 - Developed and published dashboard for real-time monitoring and tracking sales performance.
 
-## SQL Queries:
+## Insights from Ah-hoc requests:
+For SQL queries go to queries folder.
+
 
 
 ## Data Model
@@ -28,7 +30,7 @@ Analyzing the dataset of a telecom company to track it's important KPIs, compare
 
 ## Dashboard
 <p align="center">
-<img src="media/dashboard-1.png">
+<img src="media/dashboard1.png">
 </p>
 Live Dashboard: <a href="https://app.powerbi.com/view?r=eyJrIjoiYzRmMTNhYzgtMzU0ZS00ZjE3LTk2ZDUtMGRkMjEyNjYwODExIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9">Click Here</a>
 
