@@ -19,7 +19,8 @@ This is an end-to-end data analytics project in which a real business problem is
 - Developed and published dashboard for real-time monitoring and tracking sales performance.
 
 ## Insights from Ah-hoc requests:
-For SQL queries go to queries folder.
+- For SQL queries go to queries folder.
+- <a href="https://www.linkedin.com/feed/update/urn:li:activity:7176228576202022912/">For Insights Check Linkedin Post</a>
 
 
 
