@@ -68,8 +68,8 @@ Live Dashboard: <a href="https://app.powerbi.com/view?r=eyJrIjoiYzRmMTNhYzgtMzU0
 
   ### Channel and Growth:
   - From Feb 2021 we are observing a stable sales growth rate and profit.
-  - Currently sales growth is in a little bit decline of 0.8%.
-  - Current profit in around Rs. 56 Million.
+  - Currently monthly sales growth is in a little bit decline of 0.8%.
+  - Current monthly profit in around Rs. 56 Million.
   - The highest growth rate was recorded on April 2020, which was around 270% more sales, this can be due to peak Corona time.
   - Most Profitable month was December 2020.
     
