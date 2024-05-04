@@ -1,5 +1,5 @@
 # Computer Hardware Company Sales Data Analytics
-Analyzing the dataset of a telecom company to track it's important KPIs, compare post and pre 5G launch performance and performing market competition analysis to provide insights to the executives in the telecom domain using Power BI.
+This is an end-to-end data analytics project in which a real business problem is solved using SQL (to perform ad hoc requests for which the business needs insights) and Power BI, to develop a dashboard for top-level management for real time monitoring.
 
 ## Problem Statement: 
 Our client is one of the leading computer hardware producers and well expanded in many countries. However, the management noticed that they do not get enough insights to make quick and smart data-informed decisions. They want to expand their data analytics work by adding a data analyst in their team. Their data analytics director wanted to hire someone who can provide insights to ad-hoc requests and business questions and create dashboards and reports for monitoring their business performance.
@@ -10,7 +10,7 @@ Our client is one of the leading computer hardware producers and well expanded i
 - Power BI
 
 ## Objectives
-- Providing insights to ad-hoc business questions and requests by the client.
+- Providing insights for ad-hoc business questions and requests by the client.
 - Dashboard for monitoring and tracking sales performance.
 
 ## Steps Performed
@@ -22,7 +22,8 @@ Our client is one of the leading computer hardware producers and well expanded i
 - Developed and published dashboard for real-time monitoring and tracking sales performance.
 
 ## Insights from Ah-hoc requests:
-For SQL queries go to queries folder.
+- For SQL queries go to queries folder.
+- <a href="https://www.linkedin.com/feed/update/urn:li:activity:7176228576202022912/">For Insights Check Linkedin Post</a>
 
 
 
